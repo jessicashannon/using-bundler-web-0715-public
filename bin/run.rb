@@ -1,4 +1,5 @@
-require_relative '../config/environment'
+$LOAD_PATH << "."
+require 'config/environment'
 
 Hashie
 Sinatra
